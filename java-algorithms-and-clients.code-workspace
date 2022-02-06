@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"algs4.jar"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "java",
+				"name": "Launch Current File",
+				"request": "launch",
+				"mainClass": "${file}"
+			},
+			{
+				"type": "java",
+				"name": "Launch BinarySearch",
+				"request": "launch",
+				"mainClass": "BinarySearch",
+				"projectName": "java-algorithms-and-clients_adc32bc5"
+			},
+			{
+				"type": "java",
+				"name": "Launch Counter",
+				"request": "launch",
+				"mainClass": "Counter",
+				"projectName": "java-algorithms-and-clients_adc32bc5"
+			},
+			{
+				"type": "java",
+				"name": "Launch ResizingArrayStack",
+				"request": "launch",
+				"mainClass": "ResizingArrayStack",
+				"projectName": "java-algorithms-and-clients_adc32bc5"
+			}
+		]
+	}
+}
