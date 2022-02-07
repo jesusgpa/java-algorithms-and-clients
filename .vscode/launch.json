@@ -6,6 +6,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Flips",
+            "request": "launch",
+            "mainClass": "Flips",
+            "projectName": "java-algorithms-and-clients_adc32bc5",
+            "args": "7"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseArgument",
+            "request": "launch",
+            "mainClass": "UseArgument",
+            "projectName": "java-algorithms-and-clients_adc32bc5",
+            "args": "Jesús"
+        },
+        {
+            "type": "java",
             "name": "Launch ResizingArrayQueue",
             "request": "launch",
             "mainClass": "ResizingArrayQueue",
@@ -34,7 +50,7 @@
             "request": "launch",
             "mainClass": "Counter",
             "projectName": "java-algorithms-and-clients_adc32bc5",
-            "args": "6 600000"
+            "args": "6 7"
         },
         {
             "type": "java",

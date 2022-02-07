@@ -113,6 +113,9 @@ public class Counter implements Comparable<Counter> {
         for (int i = 0; i < n; i++) {
             StdOut.println(hits[i]);
         }
+
+        // Utilizando el método tally() para conocer un valor de hits.
+        //StdOut.println(hits[0].tally());
     } 
 } 
 
