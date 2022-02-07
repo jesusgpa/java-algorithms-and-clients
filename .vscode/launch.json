@@ -6,6 +6,37 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Point2D",
+            "request": "launch",
+            "mainClass": "Point2D",
+            "projectName": "java-algorithms-and-clients_adc32bc5",
+            "args": "10 10 20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rolls",
+            "request": "launch",
+            "mainClass": "Rolls",
+            "projectName": "java-algorithms-and-clients_adc32bc5",
+            "args": "10"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlipsMax",
+            "request": "launch",
+            "mainClass": "FlipsMax",
+            "projectName": "java-algorithms-and-clients_adc32bc5",
+            "args": "10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alias",
+            "request": "launch",
+            "mainClass": "Alias",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
             "name": "Launch Flips",
             "request": "launch",
             "mainClass": "Flips",
