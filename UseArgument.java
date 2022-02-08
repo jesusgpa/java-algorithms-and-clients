@@ -13,7 +13,7 @@
  *
  ******************************************************************************/
 
- import edu.princeton.cs.algs4.*;
+ //import edu.princeton.cs.algs4.*; // no es necesario importar la librería, no se utiliza.
 
 public class UseArgument {
 
