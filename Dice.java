@@ -57,6 +57,31 @@ import edu.princeton.cs.algs4.StdOut;
 public class Dice {
     public static void main(String[] args) {
         StdOut.println("vacio");
+
+        /** Asumimos que los ficheros llegan en el orden tiradas juego */
+
+        /** Leer Fichero tiradas.txt */
+        /** Encontrar, leer, almacenar F.tiradas*/
+
+        /** Leer Fichero juego.txt */
+        /** Encontar, leer, almacenar F.juego*/
+
+
+        /** Declarar el array tiradas (nombre, dado1, dado2) */
+
+        /** Declarar el array juego (dado1, dado2, valor tirada) */
+
+        /** Declarar el array top10 (nombre, valor tirada) */
+
+        /** Cargar el fichero tiradas en el array de tiradas */
+
+        /** Cargar el fichero juego en el array de juego */
+
+        /** Obtener el valor de cada tirada y almacenarlo en el array top10 */
+
+        /** Mostrar el resultado almacenado en top10 */
+
+
     }
 
     public static String[] Top(String filename) {
