@@ -6,6 +6,29 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ST",
+            "request": "launch",
+            "mainClass": "ST",
+            "projectName": "java-algorithms-and-clients_a04e0ef3",
+            "args": "< tiradas.txt"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dice",
+            "request": "launch",
+            "mainClass": "Dice",
+            "projectName": "java-algorithms-and-clients_a04e0ef3",
+            "args": "tiradas.txt juego.txt"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alias",
+            "request": "launch",
+            "mainClass": "Alias",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
             "name": "Launch Point2D",
             "request": "launch",
             "mainClass": "Point2D",

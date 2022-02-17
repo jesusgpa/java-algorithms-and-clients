@@ -52,30 +52,64 @@
  * 
  */
 
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 public class Dice {
     public static void main(String[] args) {
-        StdOut.println("vacio");
+        //StdOut.println("vacio");
+        /** Zona declarativa */
+        int n = 0;
+
 
         /** Asumimos que los ficheros llegan en el orden tiradas juego */
 
         /** Leer Fichero tiradas.txt */
         /** Encontrar, leer, almacenar F.tiradas*/
 
+        In ftiradas = new In(args[0]);
+
         /** Leer Fichero juego.txt */
         /** Encontar, leer, almacenar F.juego*/
 
+        In fjuego = new In(args[1]);
+
+        /** ¿Como se declara un array de varias dimensiones?      */
+        /** https://introcs.cs.princeton.edu/java/14array/ */
+        /** ¿Como declaramos estructuras de tipo clave valor */
+        /** https://introcs.cs.princeton.edu/java/44st/ */
 
         /** Declarar el array tiradas (nombre, dado1, dado2) */
 
+        int [][][] tiradas = new int [n][n][n];
+
         /** Declarar el array juego (dado1, dado2, valor tirada) */
+
+        int [][][] juego = new int [n][n][n];
 
         /** Declarar el array top10 (nombre, valor tirada) */
 
+        int [][] top10 = new int [n][n];
+
         /** Cargar el fichero tiradas en el array de tiradas */
 
+        while (!ftiradas.isEmpty()) {
+            String tline = ftiradas.readString();
+
+            StdOut.println(tline);
+        }
+
         /** Cargar el fichero juego en el array de juego */
+
+        while (!fjuego.isEmpty()) {
+            String jline = fjuego.readString();
+
+            StdOut.println(jline);
+        }
+
+        /** Como declaramos metodos estaticos de clase */
+        /** https://introcs.cs.princeton.edu/java/21function/ */
 
         /** Obtener el valor de cada tirada y almacenarlo en el array top10 */
 
