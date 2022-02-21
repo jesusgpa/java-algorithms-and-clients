@@ -6,6 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Interval2D",
+            "request": "launch",
+            "mainClass": "Interval2D",
+            "projectName": "java-algorithms-and-clients_adc32bc5",
+            "args": ".2 .5 .5 .6 10000"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interval1D",
+            "request": "launch",
+            "mainClass": "Interval1D",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
             "name": "Launch ST",
             "request": "launch",
             "mainClass": "ST",
