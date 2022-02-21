@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Date",
+            "request": "launch",
+            "mainClass": "Date",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
             "name": "Launch Interval2D",
             "request": "launch",
             "mainClass": "Interval2D",
