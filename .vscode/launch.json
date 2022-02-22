@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BitDemo",
+            "request": "launch",
+            "mainClass": "BitDemo",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
             "name": "Launch Date",
             "request": "launch",
             "mainClass": "Date",
