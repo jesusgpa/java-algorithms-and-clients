@@ -95,7 +95,7 @@ public class Dice {
         /** Cargar el fichero tiradas en el array de tiradas */
 
         while (!ftiradas.isEmpty()) {
-            String tline = ftiradas.readString();
+            String tline = ftiradas.readLine();
 
             StdOut.println(tline);
         }
@@ -103,7 +103,7 @@ public class Dice {
         /** Cargar el fichero juego en el array de juego */
 
         while (!fjuego.isEmpty()) {
-            String jline = fjuego.readString();
+            String jline = fjuego.readLine();
 
             StdOut.println(jline);
         }
