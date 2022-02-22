@@ -82,7 +82,7 @@ public class Dice {
 
         /** Declarar el array tiradas (nombre, dado1, dado2) */
 
-        int [][][] tiradas = new int [n][n][n];
+        String [][][] atiradas = new String [n][n][n];
 
         /** Declarar el array juego (dado1, dado2, valor tirada) */
 
