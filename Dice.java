@@ -60,7 +60,7 @@ public class Dice {
     public static void main(String[] args) {
         //StdOut.println("vacio");
         /** Zona declarativa */
-        int n = 0;
+        int n = 36;
 
 
         /** Asumimos que los ficheros llegan en el orden tiradas juego */
@@ -82,31 +82,66 @@ public class Dice {
 
         /** Declarar el array tiradas (nombre, dado1, dado2) */
 
-        String [][][] atiradas = new String [n][n][n];
+        //String [][][] atiradas = new String [n][n][n];
 
         /** Declarar el array juego (dado1, dado2, valor tirada) */
 
-        int [][][] juego = new int [n][n][n];
+        int [][] juego = new int [n][n];
 
         /** Declarar el array top10 (nombre, valor tirada) */
 
-        int [][] top10 = new int [n][n];
+        String [][] top10 = new String [n][n];
+
+        /** Cargar el fichero juego en el array de juego */
+        /** Antes de poder jugar necesitamos cargar las reglas
+         * del juego.
+         */
+
+        int i = 0; 
+
+        while (!fjuego.isEmpty()) {
+            String jline = fjuego.readString();
+
+            juego [i][i] =  jline;
+
+
+
+            StdOut.println(jline);
+        }        
 
         /** Cargar el fichero tiradas en el array de tiradas */
 
+        String tline;
+        String nombre;
+        int t1;
+        int t2;
+        int valort;
+        int top;
+
         while (!ftiradas.isEmpty()) {
-            String tline = ftiradas.readLine();
+            tline = ftiradas.readLine();
 
-            StdOut.println(tline);
+            nombre = tline;
+
+            tline = ftiradas.readLine();
+
+            t1 = tline;
+
+            tline = ftiradas.readline();
+
+            t2 = tline;
+
+
+            valort = damevalortirada(t1,t2);
+
+
+            top = insertartop10(nombre,valort);
+
+
+            //StdOut.println(tline);
         }
 
-        /** Cargar el fichero juego en el array de juego */
 
-        while (!fjuego.isEmpty()) {
-            String jline = fjuego.readLine();
-
-            StdOut.println(jline);
-        }
 
         /** Como declaramos metodos estaticos de clase */
         /** https://introcs.cs.princeton.edu/java/21function/ */
