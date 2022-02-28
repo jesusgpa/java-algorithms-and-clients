@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Cadenas",
+            "request": "launch",
+            "mainClass": "Cadenas",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
             "name": "Launch JavaStrings",
             "request": "launch",
             "mainClass": "JavaStrings",
