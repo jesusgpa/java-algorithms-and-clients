@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JavaStrings",
+            "request": "launch",
+            "mainClass": "JavaStrings",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch String",
+            "request": "launch",
+            "mainClass": "String",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
             "name": "Launch BitDemo",
             "request": "launch",
             "mainClass": "BitDemo",
