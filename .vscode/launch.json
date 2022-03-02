@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch bwop",
+            "request": "launch",
+            "mainClass": "bwop",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitDemo",
+            "request": "launch",
+            "mainClass": "BitDemo",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
             "name": "Launch Cadenas",
             "request": "launch",
             "mainClass": "Cadenas",
