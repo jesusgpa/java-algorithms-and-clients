@@ -189,7 +189,7 @@ public class Date implements Comparable<Date> {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        Date today = new Date(2, 22, 2022);
+        Date today = new Date(3, 1, 2022);
         StdOut.println(today);
         for (int i = 0; i < 10; i++) {
             today = today.next();

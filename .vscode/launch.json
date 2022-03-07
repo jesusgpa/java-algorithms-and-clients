@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Transaction",
+            "request": "launch",
+            "mainClass": "Transaction",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Date",
+            "request": "launch",
+            "mainClass": "Date",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interval1D",
+            "request": "launch",
+            "mainClass": "Interval1D",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Point2D",
+            "request": "launch",
+            "mainClass": "Point2D",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cat",
+            "request": "launch",
+            "mainClass": "Cat",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
             "name": "Launch Cadenas",
             "request": "launch",
             "mainClass": "Cadenas",
