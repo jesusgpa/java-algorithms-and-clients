@@ -36,7 +36,7 @@ public class bwop {
         System.out.println("a>>2");        
         System.out.println(a>>2);
 
-        // bitwise >> unsigned right shift
+        // bitwise >>> unsigned right shift
         // 0101 >>>2 0001        
         System.out.println("a>>>2");        
         System.out.println(a>>>2);        

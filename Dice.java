@@ -102,7 +102,7 @@ public class Dice {
         while (!fjuego.isEmpty()) {
             String jline = fjuego.readString();
 
-            juego [i][i] =  jline;
+            //juego [i][i] =  jline;
 
 
 
@@ -125,17 +125,17 @@ public class Dice {
 
             tline = ftiradas.readLine();
 
-            t1 = tline;
+            //t1 = tline;
 
-            tline = ftiradas.readline();
+            //tline = ftiradas.readline();
 
-            t2 = tline;
-
-
-            valort = damevalortirada(t1,t2);
+            //t2 = tline;
 
 
-            top = insertartop10(nombre,valort);
+            //valort = damevalortirada(t1,t2);
+
+
+            //top = insertartop10(nombre,valort);
 
 
             //StdOut.println(tline);
