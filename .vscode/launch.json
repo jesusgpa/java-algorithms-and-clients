@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Base16",
+            "request": "launch",
+            "mainClass": "Base16",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
             "name": "Launch Transaction",
             "request": "launch",
             "mainClass": "Transaction",
