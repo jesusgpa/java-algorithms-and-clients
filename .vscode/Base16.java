@@ -18,6 +18,14 @@ public class Base16 {
         // b = 7 en binario 0111
 
         StdOut.println(b);
+
+
+        b = 3;
+        
+        // Avanzamos tres posiciones en el diccionario de A hasta D
+        char c = (char)('A' + b);
+        
+        StdOut.println(c);
         
     }
 
