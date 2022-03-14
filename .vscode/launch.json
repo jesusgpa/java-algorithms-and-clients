@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Whitelist",
+            "request": "launch",
+            "mainClass": "Whitelist",
+            "projectName": "java-algorithms-and-clients_adc32bc5",
+            "args": "algs4-data/largeW.txt < algs4-data/largeT.txt"
+        },
+        {
+            "type": "java",
             "name": "Launch Base16",
             "request": "launch",
             "mainClass": "Base16",
