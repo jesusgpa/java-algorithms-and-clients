@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CounterWithName",
+            "request": "launch",
+            "mainClass": "CounterWithName",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
             "name": "Launch Whitelist",
             "request": "launch",
             "mainClass": "Whitelist",
