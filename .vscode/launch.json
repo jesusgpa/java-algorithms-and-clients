@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExcepcionesH",
+            "request": "launch",
+            "mainClass": "ExcepcionesH",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Excepciones",
+            "request": "launch",
+            "mainClass": "Excepciones",
+            "projectName": "java-algorithms-and-clients_adc32bc5"
+        },
+        {
+            "type": "java",
             "name": "Launch CounterWithName",
             "request": "launch",
             "mainClass": "CounterWithName",
