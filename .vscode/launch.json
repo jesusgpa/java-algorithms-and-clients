@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Aserciones",
+            "request": "launch",
+            "mainClass": "Aserciones",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcepcionesH",
+            "request": "launch",
+            "mainClass": "ExcepcionesH",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Excepciones",
+            "request": "launch",
+            "mainClass": "Excepciones",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CounterWithName",
+            "request": "launch",
+            "mainClass": "CounterWithName",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
             "name": "Launch ExcepcionesH",
             "request": "launch",
             "mainClass": "ExcepcionesH",
