@@ -2,35 +2,24 @@ import java.util.Iterator;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class Stack<Item> implements Iterable<Item>
+public class Bag<Item> implements Iterable<Item>
 {
-    private Node first; // cima de la pila (último elemento añadido)
+    private Node first; // primer nodo de la lista
     private int n;
-
     private class Node
     {   // clase anidada privada para definir nodos
 	Item item;
 	Node next;
     }
-
     public boolean isEmpty() {  return first == null; }
     public int size()        {  return n;             }
-
-    public void push(Item item)
-    {   // Añadir item a la cima de la pila
+    public void add(Item item)
+    {   // Añadir item a la bolsa: igual que push() de la pila
 	Node oldfirst = first;
 	first = new Node();
 	first.item = item;
 	first.next = oldfirst;
 	n++;
-    }
-
-    public Item pop()
-    {   // Extraer y devolver elemento en la cima de la pila
-	Item item = first.item;
-	first = first.next;
-	n--;
-	return item;
     }
 
     public Iterator<Item> iterator()
@@ -48,18 +37,4 @@ public class Stack<Item> implements Iterable<Item>
 	    return item;
 	}
     }
-
-    public static void main (String[] args)
-    {
-        Stack<String> s = new Stack<String>();
-
-        while (!StdIn.isEmpty())
-        {
-            String item = StdIn.readString();
-            if (!item.equals("-")) { s.push(item); }
-            else if (!s.isEmpty()) { StdOut.print(s.pop() + " "); }
-        }
-        StdOut.println("(" + s.size() + " left on stack)");
-    }    
 }    
-	
