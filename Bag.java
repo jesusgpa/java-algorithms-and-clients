@@ -1,6 +1,6 @@
 import java.util.Iterator;
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
+//import edu.princeton.cs.algs4.StdIn;
+//import edu.princeton.cs.algs4.StdOut;
 
 public class Bag<Item> implements Iterable<Item>
 {

@@ -1,4 +1,5 @@
-import java.util.Iterator
+import java.util.Iterator;
+
 public class ResizingArrayStack<Item> implements Iterable<Item>
 {
     // Inicialmente el tamaño del array es 1

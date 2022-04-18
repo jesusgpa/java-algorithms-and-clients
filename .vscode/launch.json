@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StopwatchClient",
+            "request": "launch",
+            "mainClass": "StopwatchClient",
+            "projectName": "java-algorithms-and-clients_a04e0ef3",
+            "args": "1000"
+        },
+        {
+            "type": "java",
             "name": "Launch ThreeSum",
             "request": "launch",
             "mainClass": "ThreeSum",
