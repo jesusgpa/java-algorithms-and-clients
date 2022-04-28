@@ -6,11 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PruebaGenerarNums",
+            "request": "launch",
+            "mainClass": "PruebaGenerarNums",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoublingRatio",
+            "request": "launch",
+            "mainClass": "DoublingRatio",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSumFast",
+            "request": "launch",
+            "mainClass": "TwoSumFast",
+            "projectName": "java-algorithms-and-clients_a04e0ef3",
+            "args": "algs4-data/1Mints.txt"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSum",
+            "request": "launch",
+            "mainClass": "ThreeSum",
+            "projectName": "java-algorithms-and-clients_a04e0ef3",
+            "args": "algs4-data/8Kints.txt"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoublingTest",
+            "request": "launch",
+            "mainClass": "DoublingTest",
+            "projectName": "java-algorithms-and-clients_a04e0ef3"
+        },
+        {
+            "type": "java",
             "name": "Launch StopwatchClient",
             "request": "launch",
             "mainClass": "StopwatchClient",
             "projectName": "java-algorithms-and-clients_a04e0ef3",
-            "args": "1000"
+            "args": "4000"
         },
         {
             "type": "java",
